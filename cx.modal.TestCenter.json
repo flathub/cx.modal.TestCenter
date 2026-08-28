@@ -34,7 +34,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/verdre/test-center.git",
-                    "commit": "70cc9a4dcf94d930bdc1eceff800e43b24f6d7e2"
+                    "commit": "bde5acef1baf36752ffe0276c3e48043dc07778d",
+                    "tag": "0.2.0"
                 },
                 "generated-sources.json",
                 {
