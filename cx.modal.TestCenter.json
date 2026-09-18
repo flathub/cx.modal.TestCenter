@@ -25,6 +25,19 @@
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/cmake",
+        "/share/applications/mimeinfo.cache",
+        "/share/bash-completion",
+        "/share/zsh/site-functions",
+        "/share/icons/hicolor/icon-theme.cache",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "test-center",
